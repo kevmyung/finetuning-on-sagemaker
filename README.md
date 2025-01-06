@@ -4,7 +4,12 @@ This project demonstrates fine-tuning Llama 3B model to generate JSON-formatted 
 
 ## Scenario
 
-1. **Data Preparation**
+1. **Model Access**
+   - Request access to [Llama-3.2-3B](https://huggingface.co/meta-llama/Llama-3.2-3B) on HuggingFace
+   - You must be granted access to the model before running the fine-tuning process
+   - This requires accepting Meta's license agreement and waiting for approval
+
+2. **Data Preparation**
    - Use Databricks Dolly dataset for training
    - Format responses into structured JSON format
    - Example format:
@@ -18,14 +23,14 @@ This project demonstrates fine-tuning Llama 3B model to generate JSON-formatted 
    }
    ```
 
-2. **Model Fine-tuning**
+3. **Model Fine-tuning**
     - Fine-tune Meta's Llama 3B model using QLoRA technique
     - Train model to generate responses in JSON format
     - Validate response format during training
     - Use ml.g5.4xlarge instance for training
 
 
-3. **Deployement & Testing**
+4. **Deployement & Testing**
     - Deploy fine-tuned model to SageMaker endpoint
     - Test model responses for:
         - JSON format compliance
