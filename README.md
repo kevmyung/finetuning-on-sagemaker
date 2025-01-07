@@ -71,15 +71,28 @@ finetuning-on-sagemaker/
 ```
 
 ## Citation
-Training implementation is based on:
-
 ```Code
- Copy code
 @misc{aws-genai-workshop-kr,
   title={AWS Gen AI Workshop - Llama 3 Fine-tuning},
   author={AWS Samples},
   year={2024},
   publisher={GitHub},
   url={https://github.com/aws-samples/aws-ai-ml-workshop-kr/tree/master/genai/aws-gen-ai-kr/30_fine_tune/05-fine-tune-llama3/llama3-2}
+}
+
+@misc{databricks-dolly,
+  title={Databricks Dolly 15k Dataset},
+  author={Databricks},
+  year={2023},
+  publisher={Hugging Face},
+  url={https://huggingface.co/datasets/databricks/databricks-dolly-15k}
+}
+
+@misc{llama3,
+  title={Llama-3.2-3B},
+  author={Meta AI},
+  year={2024},
+  publisher={Hugging Face},
+  url={https://huggingface.co/meta-llama/Llama-3.2-3B}
 }
 ```
